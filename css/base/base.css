@@ -1,3 +1,22 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts/Montserrat/static/Montserrat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts/Montserrat/static/Montserrat-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -11,8 +30,7 @@ body * {
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-        sans-serif;
+    font-family: 'Roboto', 'Montserrat', sans-serif;
 }
 
 :root {
